@@ -248,10 +248,11 @@ Open the ``__manifest__.py`` you created and copy/paste the following:
     'version':'1.0',
     'author':'Your name',
 
+
     'data': [
     ],
     'category': 'Theme/Creative',
-    'depends': ['website'],
+    'depends': ['website','website_theme_install'],
   }
 
 Replace the first four property’s values with anything you like.
